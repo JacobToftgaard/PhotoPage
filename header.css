@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+html {
+  margin: 0;
+}
+
+/* Navbar */
+
+header {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 32%,
+    rgba(255, 255, 255, 1) 72%,
+    rgba(171, 171, 171, 0.5453172205438066) 95%
+  );
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+  font-size: 2em;
+  display: flex;
+  padding: 11px;
+  margin: 0 0 0 5px;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  margin: 0 0 10px 10px;
+  padding-right: 10px;
+}
+.logo:hover {
+  color: orange;
+  border-bottom: black solid 1px;
+}
+
+#blind {
+  padding-top: 15px;
+}
+
+.fas {
+  font-size: 2em;
+  padding-left: 10px;
+  /* color: orange; */
+}
+
+nav {
+  width: 100%;
+  display: inline-flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+
+nav li {
+  font-size: 1.5rem;
+  display: inline;
+  padding: 0px 10px;
+  margin: 10px 30px;
+  color: orange;
+  border-left: 1px solid black;
+  border-bottom-left-radius: 15px;
+  border-right: 1px solid black;
+  border-top-right-radius: 15px;
+  background-color: white;
+}
+
+nav li:hover {
+  color: white;
+  background-color: black;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+}
+
+/* Navbar end */
+
+/* Main Content */

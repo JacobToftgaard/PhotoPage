@@ -1,0 +1,39 @@
+.box {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.photobox {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+#div1 {
+  background-color: white;
+  color: black;
+}
+#div2 {
+  background-color: white;
+  color: black;
+}
+
+.inner {
+  width: 50%;
+  text-align: center;
+}
+
+img {
+  width: 96%;
+  margin: 2% 2%;
+}
+.imgl {
+  border: solid lightgrey 1px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.imgr {
+  border: solid lightgrey 1px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
